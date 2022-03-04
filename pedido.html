@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Mi Pedido</title>
+  </head>
+
+  <body >
+
+    <h3><center>Mi Pedido</center></h3>
+
+  <p>
+    <img src="imagenes\meteoro.png" align="right" alt="meteorito" width="150"height="150">
+  </p>
+  <br><br>
+
+  <br><br><br><br><br><br><br><br><br><br>
+  <center>
+  <a href=".\pasteleria.html">
+    <button type="button" name="button">Inicio</button>
+  </a>
+  </center>
+  <hr>
+  <h3><center>Mi Pastel sera</center></h3>
+
+  <center>
+      <input type="radio" id="chocolate con chispas" name="pasteles">
+      <label for="chocolate con chispas">chocolate con chispas</label><br>
+      <input type="radio" id="vainilla con flores"name="pasteles">
+        <label for="vainilla con flores">vainilla con flores</label><br>
+      <input type="radio" id="chocolate amargo"name="pasteles">
+        <label for="chocolate amargo">chocolate amargo</label><br>
+      <input type="radio" id="fresa con duraznos"name="pasteles">
+        <label for="fresa con duraznos">fresa con duraznos</label><br>
+      <input type="radio" id="limon con kiwi"name="pasteles">
+        <label for="limon con kiwi">limon con kiwi</label><br>
+      <input type="radio" id="pastel de 3 leches"name="pasteles">
+        <label for="pastel de 3 leches">pastel de 3 leches</label><br>
+      <input type="radio" id="pai"name="pasteles">
+        <label for="pai">pai</label><br>
+        <br>
+        <a href=".\pedidoRealizado.html">
+          <button type="submit" name="enviar">hacer pedido</button>
+        </a>
+  </center>
+    <hr>
+  <h3><center>Crear mi propio Pastel</center> </h3>
+  <center>
+  <form class="form1" action="index.html" method="post">
+    <label for="nombre-form">Nombre</label>
+    <input type="text" id="nombre-form" name="nombre">
+    <br> <br>
+    <label for="apellidos-form">Apellidos</label>
+    <input type="text" name="Apellidos" id="apellidos-form">
+    <br><br>
+    <label for="telefono-form">Telefono</label>
+    <input type="tel" name="telefono"  id="telefono-form" maxlength="10">
+    <br><br>
+    <label for="correo-form">Correo Electronico</label>
+    <input type="email" name="email" id="correo-form">
+    <br><br>
+    <h3><center>Elija la cubierta del Pastel</center></h3>
+    <label for="cubiertas">Cubierta del Pastel</label>
+    <select id="cubiertas" name="cubiertas">
+      <option value="chocolate">chocolate</option>
+      <option value="fresa">fresa</option>
+      <option value="vainilla">vainilla</option>
+      <option value="chocolate amargo">chocolate amargo</option>
+      <option value="cereza">cereza</option>
+      <option value="mango">mango</option>
+      <option value="menta">menta</option>
+    </select>
+      <br><br>
+      <h3><center>Elija la decoracion</center></h3>
+
+      <input type="checkbox" name="chispas" id="chispas-form" value="chispas">
+      <label for="chispas-form">chispas</label>
+      <br><br>
+      <input type="checkbox" name="acerrin de chocolate" id="acerrin de chocolate" value="acerrin de chocolate">
+      <label for="acerrin de chocolate">acerrin de chocolate</label>
+      <br><br>
+      <input type="checkbox" name="conejito de chocolate" id="conejito de chocolate" value="conejito de chocolate">
+      <label for="conejito de chocolate">conejito de chocolate</label>
+      <br><br>
+      <input type="checkbox" name="cerezas" id="cerezas" value="cerezas">
+      <label for="cerezas">cerezas</label>
+      <br><br>
+      <input type="checkbox" name="fresas bañadas de chocolate" id="fresas bañadas de chocolate" value="fresas bañadas de chocolate">
+      <label for="fresas bañadas de chocolate">fresas bañadas de chocolate</label>
+      <br><br>
+      <input type="checkbox" name="dedicatoria con tinta comestible" id="dedicatoria con tinta comestible" value="dedicatoria con tinta comestible">
+      <label for="dedicatoria con tinta comestible">dedicatoria con tinta comestible</label>
+      <br><br>
+      <label for="dedicatoria-form">escribe la dedicatoria que deseas en el pastel</label>
+      <input type="text" name="dedicatoria" id="dedicatoria-form">
+      <br><br>
+      <a href="./pedidoRealizado.html">
+      <button type="button" name="button">enviar</button>
+      </a>
+      <button type="reset" name="button">borrar pedido</button>
+  </form>
+  </center>
+  </body>
+
+</html>
